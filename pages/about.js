@@ -9,8 +9,8 @@ const About = () => {
         <Image
           src={pet2}
           alt="petCare"
-          width={800}
-          height={800}
+          width={1500}
+          height={1500}
           objectFit="cover"
           className="rounded-2xl shadow-lg"
         />
