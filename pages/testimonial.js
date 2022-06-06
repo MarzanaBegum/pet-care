@@ -4,7 +4,7 @@ import people2 from "../public/images/people-2.png";
 
 function Testimonial() {
   return (
-    <div>
+    <>
       <div className="text-center mb-10 flex-col flex">
         <p className="text-semibold text-orange-500 text-lg block mb-2">
           Testimonial
@@ -15,7 +15,7 @@ function Testimonial() {
         {/* first block */}
         <div className="max-wxl p-4 text-gray-800 bg-orange-500 rounded-lg shadow-md">
           <div className="mb-2">
-            <div className="flex items-center justify-center gap-4 mb05">
+            <div className="flex items-center justify-center gap-4 mb-5">
               <div className="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-gray-100 rounded-full">
                 <Image
                   src={people1}
@@ -63,7 +63,7 @@ function Testimonial() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
