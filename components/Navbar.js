@@ -21,7 +21,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="min-w-7xl mx-auto border-b border-gray-50 bg-white px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 mx-0 justify-between items-center md-mx-20">
+            <div className="relative flex h-16 mx-0 justify-between items-center md:mx-20">
               <div className="absolute flex items-center left-0 inset-y-0 sm:hidden">
                 <Disclosure.Button className="inline-flex justify-center items-center rounded-md p-2 text-orange-500 hover:bg-orange-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -55,7 +55,6 @@ export default function Navbar() {
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
-                        {""}
                         {item.name}
                       </a>
                     ))}
@@ -84,7 +83,6 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
-                  {""}
                   {item.name}
                 </Disclosure.Button>
               ))}
