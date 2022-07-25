@@ -4,13 +4,13 @@ import pet1 from "../public/images/pet1.jpg";
 
 function HomePage() {
   return (
-    <div className="flex md:flex-row flex-col justify-around items-center min-w-7xl mt-20">
-      <div className="flex flex-col items-start justify-start md:ml-20 mx-10 mt-10 md:mt-0">
-        <p className="text-orange-500 font-semibold">Veterinary</p>
-        <h2 className="text-gray-800 font-bold text-5xl md:text-6xl">
+    <div className="flex flex-col items-center justify-around mt-20 md:mb-40 md:flex-row min-w-7xl">
+      <div className="flex flex-col items-start justify-start mx-10 mt-10 md:ml-20 md:mt-0">
+        <p className="font-semibold text-orange-500">Veterinary</p>
+        <h2 className="text-2xl font-bold text-gray-800 md:text-6xl">
           Treating your pet by our profession
         </h2>
-        <p className="md:text-base text-sm font-semibold text-gray-400 mt-5">
+        <p className="mt-5 text-sm font-semibold text-gray-400 md:text-base">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and scrambled it
@@ -18,16 +18,16 @@ function HomePage() {
           but also the leap into electronic typesetting, remaining essentially
           unchanged.
         </p>
-        <div className="flex justify-center items-center mt-10 gap-5">
-          <buttton className="text-white bg-orange-500 font-semibold rounded-full px-4 md:py-4 hover:bg-black hover:shadow-lg">
+        <div className="flex items-center justify-center gap-5 mt-10">
+          <buttton className="px-4 py-3 font-semibold text-white bg-orange-500 rounded-full md:py-4 hover:bg-black hover:shadow-lg">
             Create Schedule
           </buttton>
-          <button className="bg-gray-50 rounded-full shadow-lg p-2">
-            <BsFillPlayCircleFill className="text-orange-500 md:text-5xl text-4xl hover:text-black hover:shadow-lg" />
+          <button className="p-2 rounded-full shadow-lg bg-gray-50">
+            <BsFillPlayCircleFill className="text-4xl text-orange-500 md:text-5xl hover:text-black hover:shadow-lg" />
           </button>
         </div>
       </div>
-      <div className="hidden md:block mr-20">
+      <div className="hidden mx-20 md:block">
         <Image
           src={pet1}
           width={1500}

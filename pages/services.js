@@ -32,15 +32,15 @@ const ourServices = [
 export default function Services() {
   return (
     <div className="py-12 bg-white">
-      <div className="max-w-7xl mx-20 px-4 sm:px-6 lg:px-8">
+      <div className="px-4 mx-6 max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-base text-orange-500 font-semibold">
+          <h2 className="text-base font-semibold text-orange-500">
             Our Services
           </h2>
-          <p className="mt-2 md:text-5xl text-4xl font-bold text-gray-800">
+          <p className="mt-2 text-2xl font-bold text-gray-800 md:text-5xl">
             A better way to treat our pets
           </p>
-          <p className="mt-4 mb-10 mx-w-2xl md:text-base text-gray-500 lg:mx-auto">
+          <p className="max-w-2xl mt-4 mb-10 text-gray-500 md:text-base lg:mx-auto">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -50,14 +50,14 @@ export default function Services() {
             {ourServices.map((service) => (
               <div key={service.name} className="relative cursor-pointer">
                 <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
-                    <service.icon className="h-6 w-6" aria-hidden="true" />
+                  <div className="absolute flex items-center justify-center w-12 h-12 text-white bg-orange-500 rounded-md">
+                    <service.icon className="w-6 h-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg leading-6 text-medium text-gray-900">
+                  <p className="ml-16 text-lg leading-6 text-gray-900 text-medium">
                     {service.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 md:text-base text-sm text-gray-500">
+                <dd className="mt-2 ml-16 text-sm text-gray-500 md:text-base">
                   {service.description}
                 </dd>
               </div>
