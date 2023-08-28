@@ -20,7 +20,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-white">
       {({ open }) => (
         <>
-          <div className="px-2 mx-auto bg-white border-b min-w-7xl border-gray-50 sm:px-6 lg:px-8">
+          <div className="px-2 mx-auto bg-white border-b max-w-[1920px] border-gray-50 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16 mx-0 md:mx-20">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 text-orange-500 rounded-md hover:bg-orange-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">

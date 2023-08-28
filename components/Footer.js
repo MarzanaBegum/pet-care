@@ -6,10 +6,10 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="bg-black h-1/2 w-full flex flex-col md:flex-row justify-around items-start p-20">
-        <div className="p-5">
+      <div className="flex flex-col items-start justify-around w-full p-20 bg-black h-1/2 md:flex-row">
+        <div className="">
           <ul>
-            <p className="text-bold text-white text-3xl pb-6">
+            <p className="pb-6 text-3xl text-white text-bold">
               Pet <span className="text-orange-500">Care</span>
             </p>
             <div className="flex gap-6 pb-5">
@@ -22,49 +22,49 @@ const Footer = () => {
         </div>
         <div className="pb-5">
           <ul>
-            <p className="font-bold text-2xl text-white pb-4 ">Platform</p>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <p className="pb-4 text-2xl font-bold text-white ">Platform</p>
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Features
             </li>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Integration
             </li>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Telemedicine
             </li>
           </ul>
         </div>
         <div className="pb-5">
           <ul>
-            <p className="font-bold text-2xl text-white pb-4 ">Solutions</p>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <p className="pb-4 text-2xl font-bold text-white ">Solutions</p>
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Independent Practices
             </li>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Corporate Groups
             </li>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Smart Forms
             </li>
           </ul>
         </div>
         <div className="pb-5">
           <ul>
-            <p className="font-bold text-2xl text-white pb-4 ">Support</p>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <p className="pb-4 text-2xl font-bold text-white ">Support</p>
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               Contact
             </li>
-            <li className="text-gray-100 font-semibold text-sm pb-2 cursor-pointer hover:text-orange-500">
+            <li className="pb-2 text-sm font-semibold text-gray-100 cursor-pointer hover:text-orange-500">
               FAQ&apos;s
             </li>
           </ul>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center p-5 bg-black">
-        <h2 className="text-sm text-semibold text-gray-100">
+      <div className="flex flex-col items-center justify-center p-5 text-center bg-black">
+        <h2 className="text-sm text-gray-100 text-semibold">
           Copyright {new Date().getFullYear()} All Rights Reserved | Build with
           ❤️ by
-          <span className="hover:text-orange-500 font-semibold cursor-pointer">
+          <span className="font-semibold cursor-pointer hover:text-orange-500">
             {" "}
             Streamline
           </span>

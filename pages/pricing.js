@@ -9,11 +9,11 @@ function Pricing() {
           Our Pricing Plan
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-5 md:gap-x-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 md:gap-x-10 max-w-[1200px] mx-auto">
         {/* first block */}
         <div className="flex flex-wrap justify-center">
           <div className="w-full">
-            <div className="bg-white border border-gray-200 rounded-md">
+            <div className="bg-white border border-gray-200 rounded-md p-[20px] md:p-[30px]">
               <span className="block mb-4 text-lg font-semibold text-primary">
                 Lite
               </span>
@@ -46,7 +46,7 @@ function Pricing() {
         {/* second block */}
         <div className="flex flex-wrap justify-center">
           <div className="w-full">
-            <div className="bg-white border border-gray-200 rounded-md">
+            <div className="bg-white border border-gray-200 rounded-md p-[20px] md:p-[30px]">
               <span className="block mb-4 text-lg font-semibold text-primary">
                 Regular
               </span>
@@ -82,7 +82,7 @@ function Pricing() {
         {/* third block */}
         <div className="flex flex-wrap justify-center">
           <div className="w-full">
-            <div className="bg-white border border-gray-200 rounded-md">
+            <div className="bg-white border border-gray-200 rounded-md p-[20px] md:p-[30px]">
               <span className="block mb-4 text-lg font-semibold text-primary">
                 Premium
               </span>

@@ -11,7 +11,7 @@ function Testimonial() {
         </p>
         <h2 className="mb-4 text-5xl text-gray-800 text-bold">Testimonial</h2>
       </div>
-      <div className="flex flex-col gap-10 mx-6 md:flex-row lg:justify-center max-w-7xl">
+      <div className="flex flex-col items-center gap-10 px-6 lg:mx-auto md:flex-row lg:justify-center max-w-7xl">
         {/* first block */}
         <div className="max-w-xl px-4 py-10 text-gray-800 bg-orange-500 rounded-lg shadow-md">
           <div className="mb-2">

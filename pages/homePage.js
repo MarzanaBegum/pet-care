@@ -4,7 +4,7 @@ import pet1 from "../public/images/pet1.jpg";
 
 function HomePage() {
   return (
-    <div className="flex flex-col items-center justify-around mt-20 md:mb-40 md:flex-row min-w-7xl">
+    <div className="flex flex-col items-center justify-center mt-20 md:mb-40 md:flex-row max-w-[1200px] mx-auto">
       <div className="flex flex-col items-start justify-start mx-10 mt-10 md:ml-20 md:mt-0">
         <p className="font-semibold text-orange-500">Veterinary</p>
         <h2 className="text-2xl font-bold text-gray-800 md:text-6xl">

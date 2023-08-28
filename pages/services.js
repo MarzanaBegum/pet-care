@@ -31,7 +31,7 @@ const ourServices = [
 
 export default function Services() {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-white max-w-[1200px] mx-auto">
       <div className="px-4 mx-6 max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-base font-semibold text-orange-500">
